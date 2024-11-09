@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+div :has(> a.active){
+    @apply bg-blue-500 text-white hover:bg-blue-600
+}
